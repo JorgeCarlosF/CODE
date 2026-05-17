@@ -51,3 +51,11 @@ numero = int(input("Ingresa un número para verificar si es primo: "))
 print ("El número ingresado es:", numero)
 
 print("Verificando si el número es primo...")
+
+if numero > 1:
+    for i in range(2, int(numero**0.5) + 1):
+        if numero % i == 0:
+            print("El número no es primo.")
+            break
+    else:
+        print("El número es primo.")
