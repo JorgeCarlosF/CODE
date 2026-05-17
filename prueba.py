@@ -45,4 +45,7 @@ elif (jugador == "piedra" and computadora == "tijera") or \
 
 else:
     print("¡Perdiste!")
-    
+
+numero = int(input("Ingresa un número para verificar si es primo: "))
+
+print ("El número ingresado es:", numero)
