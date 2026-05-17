@@ -49,3 +49,5 @@ else:
 numero = int(input("Ingresa un número para verificar si es primo: "))
 
 print ("El número ingresado es:", numero)
+
+print("Verificando si el número es primo...")
